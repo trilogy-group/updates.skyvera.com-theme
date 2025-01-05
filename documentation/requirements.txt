@@ -10,7 +10,7 @@ GitPython==3.1.27
 invoke==1.7.1
 Jinja2==3.1.2
 jinjaninja==0.1.2
-livereload==2.6.3
+livereload==2.7.1
 Markdown==3.3.7
 MarkupSafe==2.1.1
 pelican==4.7.2
