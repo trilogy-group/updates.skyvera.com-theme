@@ -1,0 +1,115 @@
+/* Brand and Logo Styles */
+.navbar .brand {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.site-logo {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+@media (max-width: 979px) {
+    .site-logo {
+        height: 25px;
+    }
+}
+
+/* Skyvera blue color for headings and titles */
+.article-content h1, 
+.article-content h2, 
+.article-content h3, 
+.article-content h4, 
+.article-content h5, 
+.article-content h6,
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    color: #1967B2 !important;
+}
+
+/* Style article titles specifically */
+article.article .article-title,
+article.article .article-title a,
+article.article .article-title a:visited {
+    color: #1967B2 !important;
+}
+
+/* Style the site name in header */
+.navbar .brand .site-name {
+    color: #1967B2 !important;
+}
+
+/* Style all page headers */
+.page-header,
+.page-header h1 {
+    color: #1967B2 !important;
+}
+
+/* Navigation links */
+.navbar .nav > li > a {
+    color: #1967B2 !important;
+}
+
+/* Keep the color on hover states */
+article.article .article-title a:hover,
+.navbar .nav > li > a:hover {
+    color: #1967B2 !important;
+    text-decoration: underline;
+}
+
+/* Style the active navigation items */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    color: #1967B2 !important;
+    font-weight: bold;
+}
+
+/* Landing page specific styles */
+.landing-page-title,
+.landing-page-title a {
+    color: #1967B2 !important;
+}
+
+/* Category and archive pages */
+.page-header.archive h1,
+.categories-timestamp,
+.categories-header {
+    color: #1967B2 !important;
+}
+
+/* Override any remaining maroon colors from the theme */
+a.title,
+a.title:hover,
+a.title:visited {
+    color: #1967B2 !important;
+}
+
+/* Footer styles */
+.footer-links {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.footer-link {
+    color: #1967B2 !important;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #1967B2 !important;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
